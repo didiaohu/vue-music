@@ -8,10 +8,10 @@
     <search v-show="!blurBgShow" @searchshow="rankshow=false" @searchhide="rankshow=true"></search>
     <div class="content-warper" v-show="rankshow&&!blurBgShow">
       <swiper :options="swiperOption" class="swiper-box">
-        <swiper-slide class="swiper-item">
+        <swiper-slide class="swiper-item" key="1">
           <rank></rank>
         </swiper-slide>
-        <swiper-slide class="swiper-item">
+        <swiper-slide class="swiper-item" key="2">
           <recommand></recommand>
         </swiper-slide>
 

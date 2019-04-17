@@ -61,7 +61,7 @@
     .mv-info {
       padding: 5px;
       font-weight: 300;
-      font-size: 14px;
+      font-size: 12px;
       position: relative;
       .author, .date {
         color: #777;
@@ -71,7 +71,7 @@
         position: absolute;
         bottom: 5px;
         left: 5px;
-        font-size: 14px;
+        font-size: 12px;
         display: flex;
         flex-direction: row;
         align-items: center;
